@@ -21,6 +21,6 @@ stage('Get approval'){
 }
 node {
     stage('deploy to Preprod'){
-        echo "deploying"
+        echo "deploying to Prepod"
     }
 }
