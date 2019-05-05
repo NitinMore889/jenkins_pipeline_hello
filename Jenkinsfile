@@ -16,13 +16,3 @@ node {
         echo "deploying"
     }
 }
-node {
-stage('Get approval'){
-    input "Deploy to Preprod?"
-     }
-}
-node {
-    stage('deploy to Preprod'){
-        echo "deploying to Prepod"
-    }
-}
